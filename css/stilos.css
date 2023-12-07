@@ -1,0 +1,1272 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Catamaran:wght@800&family=Kanit:wght@300&family=Lilita+One&family=Luckiest+Guy&family=Montserrat:wght@300&family=Outfit:wght@400;800;900&family=Pacifico&family=Red+Hat+Display&family=Roboto+Mono&display=swap');
+
+
+*{
+    margin:0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(240, 245, 245);
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+  
+}
+
+
+/*--------------------------------CABECERA----------------------*/
+
+.cabecera{
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background: url(/recursos/38-388127_s.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+   
+ }
+
+
+.img-logo{
+    width: 10%;
+    margin-left:82px;
+    
+  
+}
+
+.genesis{
+    width: 100px;
+    height: 150px;
+}
+
+.buscador{
+    width: 70%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    margin-left: 300px;
+  
+   
+}
+
+
+.div-input{
+    height: 35%;
+    width: 80%;
+    margin-left: 45px;
+   
+}
+
+
+.enlaces-cabecera{
+    margin-left: 379px;
+}
+
+.enlace-cabecera{
+    text-decoration: none;
+    margin-left:10px;
+    margin-top: 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    color: black;
+    font-size: 13PX;
+   
+}
+
+
+.input-buscar{
+    padding-bottom: 8px;
+    padding-top:8px;
+    padding-left: 3px;
+    padding-right: 270px;
+    height: 35px;
+    width: 640px;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border: 1px solid grey;
+
+}
+
+.btn-buscar{
+   
+   padding: 10px;
+   width: 20px;
+   margin-top: 2px;
+   float:right;
+}
+
+
+
+
+
+
+/*-------------------------------------NAVEGADOR------------------------------------------*/
+
+.barra{
+    background-color:#BF244E;
+    width: 100%;
+    height: 40px;
+    
+    display:inline-flex;
+    flex-direction: row;
+    justify-content:end;
+    align-items: center;
+    flex-wrap: nowrap;
+   
+}
+
+.icono{
+  
+    float: left;
+    margin-right: 5px;
+}
+
+.barra a{
+    text-decoration: none;
+    padding: 15px 15px;
+    margin-left: 30px;
+    color: white;
+    font-weight: 100;
+    margin-right: 30px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.barra a:hover{
+    transform: scale(1.3);
+    opacity: 0.7;
+    color:#F2B705;
+    text-shadow: 2px 2px  2px black;
+}
+
+a:before{
+    transition: 0.4s;
+    transform-origin: right;
+    transform: scaleX(1.1);  
+   
+}
+
+
+/*------------------------NUEVOS INGRESOS---------------------*/
+
+
+
+.container-2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 90%;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-top: 90px;
+    flex-wrap: nowrap;
+   
+}
+
+
+
+.div-costado{
+    width: 23%;
+    height: 1400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+}
+
+
+.tarjetas-ingresos{
+	width: 85%;
+    display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+    flex-wrap: wrap;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    height: 1000px;
+   
+  
+}
+
+   
+.titulo{
+    width: 100%;
+    height: 40px;
+    background-color:#038C3E;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    padding-top: 5px;
+}
+
+
+.tarjetas{
+	
+    margin-right: 25px;
+	-webkit-perspective: 800;
+	perspective: 800;
+    margin-top: 10px;
+    height: 430px;
+   
+}
+
+
+.tarjeta{
+	width: 225px;
+	height: 410px;
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transition: .7s ease;
+	transition: .7s ease;
+	display: flex;
+}
+
+
+.tarjetas:hover .tarjeta{
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
+
+.tarjeta-adelante{
+	width: 100%;
+   
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    border-radius: 10px;
+    
+}
+
+
+.tarjeta-adelante:hover{
+    -webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+	box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+}
+
+
+
+.tarjeta-adelante, .tarjeta-atras{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+    background-color: white;
+    
+}
+
+
+
+.envio{
+    height: 7%;
+    width: 80%;
+    border-radius: 20px;
+    background-color: #038C3E;
+    margin-top:10px;
+    margin-left: 5px;
+    padding-top: 3px;
+    -webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+    box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+    
+}
+    
+.envio p{
+        font-size: 10px;
+        text-align: center;
+        margin-left: 5px;
+        color: white;
+        display: inline;
+ }
+    
+.icono-envio{
+        float: left;
+        margin-left: 15px;
+ }
+
+
+.img-tarjetas{
+        background-color: rgba(255, 255, 255, 0.963); 
+        height:170px ;
+        margin-bottom: 15px;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        
+}
+
+
+
+ 
+.tarjeta-1{
+    background-image: url(/recursos/RelojSuonoKidSF.png);
+}
+
+.tarjeta-2{
+   background-image: url(/recursos/AuricularHKONSF1.png);
+}
+
+.tarjeta-3{
+   background-image: url(/recursos/parlante-pc-suono-SF.png);
+}
+
+.tarjeta-4{
+   background-image: url(/recursos/LamparSF.png);
+}
+
+
+.tarjeta-5{
+   background-image: url(/recursos/MicrofonoRGBSF.png);
+}
+
+.tarjeta-6{
+   background-image: url(/recursos/RadioRetroSF.png);
+}
+
+
+.div-producto{
+    width: 100%;
+    height: 20%;
+    
+}
+
+
+ .n-producto{
+  
+    text-align: center;
+    font-weight: 600;
+    font-size: 17px;
+    font-family: 'Kanit', sans-serif;
+   
+ }
+
+ .texto-1{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 500;
+ }
+
+ .d-2{
+    height: 10%;
+    width: 100%;
+}
+
+ 
+ .d-2 .precio{
+    
+    text-align: center;
+    font-size: 40px;
+    color: #038C3E;
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+    
+   
+ }
+
+
+ .comprar{
+    width: 100%; 
+    height: 10%;
+    background-color: #038C3E;
+    margin-top: 25px;
+    border-radius: 0  0 10px 10px;
+    display: flex;
+ 
+ 
+ }
+ 
+ .p-comprar{
+     color: white;
+     font-family: 'Kanit', sans-serif;
+     height: 95%;
+     margin-bottom: 45px;
+     margin-top: 5px;
+     display: inline-block;
+     margin-left: 65px;
+ }
+ 
+ .icono-mano{
+     border: 1px solid black;
+     float: left;
+}
+
+
+.tarjeta-atras{
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+    padding: 15px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+    text-align: center;
+	color: #fff;
+	font-family: "open sans";
+    background:white ;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    background-size: cover;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    border-radius: 10px;
+    
+     
+}
+
+.titulo-tarjeta{
+    background-color: #038C3E;
+    width: 100%;
+    height:8%;
+    padding-top: 5px;
+    font-size: 9px;
+    font-family: 'Red Hat Display';
+   
+ }
+
+
+.img-atras{
+    width: 100%;
+    height: 25%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.descripcion{
+    width: 100%;
+    height: 50%;
+    color: black;
+    font-size: 12px;
+    text-align: left;
+    font-family: 'Red Hat Display';
+    font-weight: 600;
+    background-size: cover;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+ul li{
+    list-style-type:square;
+    margin-bottom: 7px;
+}
+
+
+
+
+.div-boton{
+    border-radius:15px ;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    background-color: #038C3E;
+    -webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+    box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+    
+}
+
+
+.div-boton:hover{
+    background-color: #0a5129;
+}
+
+.btn-comprar{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Red Hat Display';
+    font-weight: 500;
+    font-family: 12px;
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 9px;
+   
+}
+
+
+
+.icono-comprar{
+    float: left;
+    margin-left: 40px;
+}
+
+
+
+
+/*----------------------------------------------------------------------------------*/
+
+
+
+.container-3{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 90%;
+    height: 420px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+
+
+
+
+.public-1{
+    width: 100%;
+    height: 420px;
+}
+
+.cyberM{
+    width: 100%;
+    height: 400px;
+}
+
+.img_CM{
+ width: 1220px;
+ height: 420px;
+
+}
+
+
+
+
+
+/*------------------IMAGENES TARJETAS-----------------*/
+
+
+ .tarjeta-7{
+    background-image: url(/recursos/nkb-400-sin-caja-510x510.jpg)
+ }
+ 
+ 
+ .tarjeta-8{
+    background-image: url(/recursos/vincha588-510x319.jpg);
+ }
+
+ .tarjeta-9{
+    background-image: url(/recursos/3391edb00f125f176ff86451428eec69.jpg);
+ }
+
+ .tarjeta-10{
+    background-image: url(/recursos/mouse-pad-gamer-aoas-s3000-2.jpg);
+ }
+
+ .tarjeta-11{
+    background-image: url(/recursos/MouseNogaST.jpg);
+ }
+
+ .tarjeta-12{
+    background-image: url(/recursos/MuseJiexin.jpeg);
+}
+
+.tarjeta-13{
+    background-image: url(/recursos/adaptadorOTG.png);
+}
+
+.tarjeta-14{
+    background-image: url(/recursos/receptorBluetooth.jpg);
+}
+
+.tarjeta-15{
+    background-image: url(/recursos/cargador\ Kosmo.jpg);
+}
+
+.tarjeta-16{
+    background-image: url(/recursos/auricularTime.jpg);
+}
+
+
+.tarjeta-17{
+    background-image: url(/recursos/auricularCorazon.jpg);
+}
+
+.tarjeta-18{
+    background-image: url(/recursos/AuricularVinchaTime.jpeg);
+}
+
+.tarjeta-19{
+    background-image: url(/recursos/cargadorInova.jpeg);
+}
+
+.tarjeta-20{
+    background-image: url(/recursos/Parlante8SUONOSF.png);
+}
+
+
+.tarjeta-21{
+    background-image: url(/recursos/ParlanteDINAXSF.png);
+}
+
+
+.tarjeta-22{
+    background-image: url(/recursos/parlanteMS.jpg);
+}
+
+.tarjeta-23{
+    background-image: url(/recursos/relojt900promax-510x319.png);
+}
+
+.tarjeta-24{
+    background-image: url(/recursos/xJQtiWswSxOaeGlVcQLB_1635443148.jpg);
+}
+
+.tarjeta-25{
+    background-image: url(/recursos/SUONOPEZ5-510x319.jpg);
+}
+
+
+/*----------------------------------------------------------------*/
+
+
+
+
+
+
+.container-4, .container-5, .container-7{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    height: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+    
+
+
+}
+
+.tarjetas-informatica, .tarjetas-accesorios, .tarjetas-audio{
+	width: 90%;
+    height: 1100px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+   
+}
+
+
+/*-------------------PIE DE PAGINA----------------------------*/
+
+
+.piepagina{
+    width: 100%;
+    height: 250px;
+    background-image: url(/recursos/depositphotos_126789892-stock-photo-abstract-gradient-turquoise-white-colored.jpg);
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+     display: flex;
+    
+    
+    
+}
+
+.container-8{
+    width: 90%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+}
+
+.piePagina-1{
+  width:20%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.piePagina-2{
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.logo-pie{
+    width: 110px;
+}
+
+.piePagina-2 a{
+  text-decoration: none;
+  color: black;
+
+  
+}
+
+.piePagina-2 p{
+    margin-top: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+
+/*----------SLIDE-------------------*/
+.container-1{
+    display: flex;
+    flex-direction: row;
+    width:100% ;
+    height: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    
+   
+}
+
+
+.slide{
+	width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: black;
+    margin:0;
+}
+
+.slide ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+    animation: slide 24s infinite alternate ease-in-out;
+}
+
+.slide li {
+	width: 100%;
+	list-style: none;
+}
+
+.slide img {
+	width: 100%;
+    margin:0;
+    height: 420px;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;} 
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+
+}
+
+
+
+/*-----------------------SUBCAT--------------------*/
+
+.sub-cat{
+    width: 90%;
+    height: 350px;
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+   
+    
+
+}
+
+.sub{
+    width: 15%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.img-cat{
+
+    width: 100%;
+    height: 60%;
+    -webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+	box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+    background-image: url(/recursos/depositphotos_126789892-stock-photo-abstract-gradient-turquoise-white-colored.jpg);
+    background-size: cover;
+    border-radius: 50%;
+   
+}
+
+
+
+.titulo-cat h2{
+
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+    color:#07070752;
+    margin-top: 15px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 500;
+}
+
+
+
+.img-parl{
+    
+    margin-right: 50px;
+    width: 200px;
+   
+  
+}
+
+.img-aur{
+
+width: 200px;
+
+}
+
+
+.img-car{
+   margin-left: 10px;
+   width: 150px;
+}
+
+.img-sec{
+    margin-left: 20px;
+    width: 130px;
+}
+
+.img-pava{
+    margin-left: 30px;
+    width: 135px;
+   
+}
+
+/*----------------ofertas-------------------------------*/
+
+.ofertas{
+
+    background-image: url(/recursos/38-388127_s.jpg);
+    background-size: cover;
+    width:100%;
+    height:32%;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    margin-bottom: 70px;
+    -webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+    box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+
+    
+ }
+
+ 
+  .tituloP-ofertas{
+     width: 100%;
+     height:10%;
+     font-size: 30px;
+     color: black;
+     text-align: center;
+     font-family: 'Luckiest Guy', cursive;
+     text-shadow: 2px 2px 2px #C2213C;
+     margin: auto auto;
+ }
+
+ .titulo-ofertas{
+    background-color: #C2213C;
+    width: 100%;
+    height:8%;
+    padding-top: 5px;
+    font-size: 12px;
+    font-family: 'Red Hat Display';
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+ 
+
+ .img-ofertas{
+     width: 100%;
+     height: 25%;
+     text-align: center;
+     margin-top:30px ;
+ }
+ 
+  .d-1of{
+     height: 20%;
+     margin-top: 20px;
+   
+    
+    
+  }
+ 
+  .d-2of{
+     height: 40%;
+     
+ }
+ 
+ 
+
+ .d-1of .texto-1{
+     font-size: 20px;
+     text-align: center;
+     font-family: 'Catamaran', sans-serif;
+     font-weight: 500;
+  }
+ 
+  .d-2of .precio{
+     
+     text-align: center;
+     font-size: 45px;
+     color: #C2213C;
+     font-family: 'Lilita One', sans-serif;
+    
+  }
+ 
+ 
+ .boton-of{
+     height: 10%;
+ }
+ 
+ 
+ .btn-comprar-oferta{
+     width: 70%;
+     height: 10%;
+     margin-top: 24px;
+     padding: 12px 60px;
+     background-color: #C2213C;
+     border-radius: 18px;
+     text-decoration: none;
+     color: white;
+     font-family: 'Red Hat Display';
+     font-weight: 500;
+     -webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+     box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+     
+     
+     
+ }
+ 
+  .btn-comprar-oferta:hover{
+     background-color: #4d0518;
+ }
+ 
+ 
+
+ /*------------------------------INFORMATICA-----------------------------------*/
+
+ .titulo-informatica{
+    width: 100%;
+    height: 40px;
+    background-color:#F2B705;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-top: 18px;
+    font-family: 'Outfit', sans-serif;
+    padding-top: 5px;
+    margin-bottom: 40px;
+}
+
+
+.envio-informatica{
+height: 7%;
+width: 80%;
+border-radius: 20px;
+background-color: #F2B705;
+margin-top:10px;
+margin-left: 5px;
+padding-top: 3px;
+-webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+
+}
+
+.envio-informatica p{
+    font-size: 10px;
+    text-align: center;
+    margin-left: 5px;
+    color: white;
+ 
+    display: inline;
+}
+
+
+ 
+ .d-2 .precio-informatica{
+    
+    text-align: center;
+    font-size: 40px;
+    color: #F2B705;
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+    
+   
+ }
+
+ .comprar-informatica{
+    width: 100%; 
+    height: 10%;
+    background-color: #F2B705;
+    margin-top: 25px;
+    border-radius: 0  0 10px 10px;
+    display: flex;
+ 
+ 
+ }
+
+ .titulo-tarjeta-informatica{
+    background-color: #F2B705;
+    width: 100%;
+    height:8%;
+    padding-top: 5px;
+    font-size: 9px;
+    font-family: 'Red Hat Display';
+   
+ }
+
+ .div-boton-informatica:hover{
+    background-color:#c0971e;
+}
+
+.div-boton-informatica{
+    border-radius:15px ;
+    height: 10%;
+    width: 100%;
+    display: flex;
+  
+    background-color: #F2B705;
+    -webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+    box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+    
+}
+
+
+
+
+
+/*------------------------AUDIO-------------------------------*/
+
+.titulo-audio{
+    width: 100%;
+    height: 40px;
+    background-color:#BF244E;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-top: 18px;
+    font-family: 'Outfit', sans-serif;
+    padding-top: 5px;
+    margin-bottom: 40px;
+}
+
+.envio-audio{
+    height: 7%;
+    width: 80%;
+    border-radius: 20px;
+    background-color: #BF244E;
+    margin-top:10px;
+    margin-left: 5px;
+    padding-top: 3px;
+    -webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+    box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+}
+
+.envio-audio p{
+    font-size: 10px;
+    text-align: center;
+    margin-left: 5px;
+    color: white;
+ 
+    display: inline;
+}
+
+.d-2 .precio-audio{
+    
+    text-align: center;
+    font-size: 40px;
+    color: #BF244E;
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+    
+   
+ }
+
+
+.comprar-audio{
+    width: 100%; 
+    height: 10%;
+    background-color: #BF244E;
+    margin-top: 25px;
+   border-radius: 0  0 10px 10px;
+   display: flex;
+}
+
+.titulo-tarjeta-audio{
+    background-color: #BF244E;
+    width: 100%;
+    height:8%;
+    padding-top: 5px;
+    font-size: 9px;
+    font-family: 'Red Hat Display';
+}
+
+.div-boton-audio{
+    border-radius:15px ;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    background-color: #BF244E;
+    -webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+    box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+    
+}
+
+
+.div-boton-audio:hover{
+    background-color:#62041d;
+}
+
+
+
+
+/*-----------------------------ACCESORIOS---------------------------------*/
+
+
+.titulo-accesorios{
+    width: 100%;
+    height: 40px;
+    background-color:#0089A9;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-top: 18px;
+    font-family: 'Outfit', sans-serif;
+    padding-top: 5px;
+    margin-bottom: 40px;
+}
+
+.envio-accesorios{
+    height: 7%;
+    width: 80%;
+    border-radius: 20px;
+    background-color: #0089A9;
+    margin-top:10px;
+    margin-left: 5px;
+    padding-top: 3px;
+    -webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+    box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+}
+
+.envio-accesorios p{
+    font-size: 10px;
+    text-align: center;
+    margin-left: 5px;
+    color: white;
+ 
+    display: inline;
+}
+
+.d-2 .precio-accesorios{
+    
+    text-align: center;
+    font-size: 40px;
+    color: #0089A9;
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+    
+   
+ }
+
+
+.comprar-accesorios{
+    width: 100%; 
+    height: 10%;
+    background-color: #0089A9;
+    margin-top: 25px;
+   border-radius: 0  0 10px 10px;
+   display: flex;
+}
+
+.titulo-tarjeta-accesorios{
+    background-color: #0089A9;
+    width: 100%;
+    height:8%;
+    padding-top: 5px;
+    font-size: 9px;
+    font-family: 'Red Hat Display';
+}
+
+.div-boton-accesorios{
+    border-radius:15px ;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    background-color: #0089A9;
+    -webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+    box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+    
+}
+
+
+.div-boton-accesorios:hover{
+    background-color:#1e6d7f;
+}
+
+
+
+
