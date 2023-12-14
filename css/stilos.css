@@ -38,7 +38,7 @@ body{
 .img-logo{
     width: 25%;
     margin-left:60px;
-    margin-top: 18px;
+    margin-top: 30px;
     height: 100%;
 }
 
@@ -49,7 +49,17 @@ body{
     font-size: 20px;
     color: white;
     text-shadow: 1px 1px 1.5px black;
+   
+   
     
+}
+
+.logo-genesis{
+    margin-bottom: 20px;
+    margin-right: 5px;
+    width: 20px;
+    float: left;
+
 }
 
 
@@ -93,7 +103,7 @@ body{
 }
 
 .iconos-b{
-    margin:10px 20px;
+    margin:15px 20px;
     width: 20px;
    
 }
@@ -243,9 +253,10 @@ a:before{
 
 .tarjeta-adelante{
 	width: 100%;
-   
     border: 1px solid rgba(0, 0, 0, 0.13);
     border-radius: 10px;
+    -webkit-box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.300);
+    box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.300);
     
 }
 
@@ -266,6 +277,9 @@ a:before{
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
     background-color: white;
+   
+   
+
     
 }
 
@@ -290,7 +304,7 @@ a:before{
         margin-left: 5px;
         color: white;
         display: inline;
-        text-shadow: 1px 2px 2px black;
+        
  }
     
 .icono-envio{
@@ -401,7 +415,7 @@ a:before{
      margin-top: 5px;
      display: inline-block;
      margin-left: 65px;
-     text-shadow: 1px 3px 5px black;
+     
  }
  
  .icono-mano{
@@ -642,6 +656,13 @@ ul li{
     background-image: url(/recursos/SUONOPEZ5-510x319.jpg);
 }
 
+.tarjeta-26{
+    background-image: url(/recursos/auricularT.jpg);
+}
+
+.tarjeta-27{
+    background-image: url(/recursos/RadioRetroSF.png);
+}
 
 /*----------------------------------------------------------------*/
 
@@ -691,9 +712,8 @@ ul li{
     height: 240px;
     display: flex;
     justify-content: space-evenly;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
+    margin: 10px auto;
+
     border: 1px solid #42f79056;
     border-radius: 10px;
 
@@ -710,11 +730,12 @@ ul li{
 
 .piePagina-2{
     width: 30%;
-    height: 200px;
+    height: 220px;
     text-align: left;
     align-self: center;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-left: 30px;
+   
     
    
 }
@@ -1052,7 +1073,6 @@ box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
     text-align: center;
     margin-left: 5px;
     color: white;
-    text-shadow: 1px 2px 2px black;
     display: inline;
 }
 
@@ -1143,7 +1163,6 @@ box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
     text-align: center;
     margin-left: 5px;
     color: white;
-    text-shadow: 1px 2px 2px rgb(57, 7, 7);
     display: inline;
 }
 
@@ -1230,7 +1249,6 @@ box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
     text-align: center;
     margin-left: 5px;
     color: white;
-    text-shadow: 1px 2px 2px black;
     display: inline;
 }
 
@@ -1282,5 +1300,133 @@ box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
 }
 
 
+/*----------------------CONTACTO-------------------------------*/
+.container-6{
+display: flex;
+flex-direction: row;
+gap: 20px;
+width: 100%;
+height: 550px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 150px;
+flex-wrap: nowrap;
+
+background-image: url(/recursos/depositphotos_126789892-stock-photo-abstract-gradient-turquoise-white-colored.jpg);
+background-size: cover;
+}
+
+.titulo-contacto{
+    width: 100%;
+    height: 40px;
+    background-color:#0089A9;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-top: 18px;
+    font-family: 'Outfit', sans-serif;
+    padding-top: 5px;
+    margin-bottom: 40px;
+}
+
+#formulario{
+    width: 50%;
+    height: 90%;
+    margin: auto 5px;
+  
+    
+   
+}
+
+.ubicacion{
+    width: 40%;
+    height: 80%;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+   
+    
+
+}
+
+.mapa{
+    width: 550px;
+    height: 450px;
+}
+
+#formulario p{
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    color: white;
+    
+}
+
+.parrafo-select{
+    display: inline-block;
+}
+
+#select{
+    font-family: 'Roboto Mono', monospace;
+    background-color: white;
+    padding-right: 30px;
+    margin-left: 25px;
+}
+
+.input-padron{ 
+    display:block;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right:25px;
+    width: 80%;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.225);
+    margin: 5px auto 15px auto ;
+}
+
+.chekbox{
+    margin: 20px 0;
+}
+
+.label{
+    margin-left: 70px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    color: white;
+    
 
 
+}
+
+.enviar{
+    width: 40%;
+    padding: 10px 0 ;
+    color: white;
+    background: #08758d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Red Hat Display';
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 70px;
+    margin-top: 30px;
+
+}
+
+.enviar:hover{
+    background: #033E8C;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+    
+     
+
+}
