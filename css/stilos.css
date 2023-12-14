@@ -1,6 +1,8 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Afacad&family=Bagel+Fat+One&family=Cabin:wght@700&family=Catamaran:wght@800&family=Kanit:wght@300&family=Lilita+One&family=Luckiest+Guy&family=Mina&family=Montserrat:wght@300&family=Outfit:wght@400;800;900&family=Pacifico&family=Red+Hat+Display&family=Roboto+Mono&family=Shadows+Into+Light&family=Teko:wght@600&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Catamaran:wght@800&family=Kanit:wght@300&family=Lilita+One&family=Luckiest+Guy&family=Montserrat:wght@300&family=Outfit:wght@400;800;900&family=Pacifico&family=Red+Hat+Display&family=Roboto+Mono&display=swap');
+
+
 
 
 *{
@@ -25,89 +27,76 @@ body{
 
 .cabecera{
     width: 100%;
-    height: 160px;
+    height: 50px;
     display: flex;
     justify-content:space-around;
     align-items: center;
-    background: url(/recursos/38-388127_s.jpg) no-repeat center center fixed;
-    background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-   
- }
+    background-color: #038C3E;
+}
 
 
 .img-logo{
-    width: 10%;
-    margin-left:82px;
-    
-  
+    width: 25%;
+    margin-left:60px;
+    margin-top: 18px;
+    height: 100%;
 }
 
-.genesis{
-    width: 100px;
-    height: 150px;
+.t-logo{
+    display: inline-block;
+    font-family: 'Bagel Fat one', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px 1.5px black;
+    
 }
+
 
 .buscador{
-    width: 70%;
+    width: 90%;
     height: 100px;
     display: flex;
     flex-wrap: wrap;
     margin-top: 80px;
-    margin-left: 300px;
-  
-   
+    margin-bottom: 25px;
 }
 
 
 .div-input{
-    height: 35%;
-    width: 80%;
-    margin-left: 45px;
-   
+    height: 50px;
+    width: 100%;
+    display: inline-flex;
 }
-
-
-.enlaces-cabecera{
-    margin-left: 379px;
-}
-
-.enlace-cabecera{
-    text-decoration: none;
-    margin-left:10px;
-    margin-top: 10px;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: bold;
-    color: black;
-    font-size: 13PX;
-   
-}
-
 
 .input-buscar{
-    padding-bottom: 8px;
-    padding-top:8px;
+    padding-bottom: 6px;
+    padding-top:6px;
     padding-left: 3px;
-    padding-right: 270px;
     height: 35px;
-    width: 640px;
+    width: 600px;
     border-radius: 10px;
-    margin-left: 5px;
     margin-top: 5px;
     border: 1px solid grey;
-
+    margin-left: 60px;
 }
 
 .btn-buscar{
-   
    padding: 10px;
-   width: 20px;
    margin-top: 2px;
-   float:right;
+   position: absolute;
+   margin-left: 620px;
 }
 
+.iconos{
+    margin-left: 120px;
+}
+
+.iconos-b{
+    margin:10px 20px;
+    width: 20px;
+   
+}
 
 
 
@@ -119,12 +108,12 @@ body{
     background-color:#BF244E;
     width: 100%;
     height: 40px;
-    
     display:inline-flex;
     flex-direction: row;
-    justify-content:end;
+    justify-content:space-around;
     align-items: center;
     flex-wrap: nowrap;
+  
    
 }
 
@@ -142,13 +131,14 @@ body{
     font-weight: 100;
     margin-right: 30px;
     font-family: 'Roboto Mono', monospace;
+    
 }
 
 .barra a:hover{
     transform: scale(1.3);
     opacity: 0.7;
     color:#F2B705;
-    text-shadow: 2px 2px  2px black;
+    
 }
 
 a:before{
@@ -300,6 +290,7 @@ a:before{
         margin-left: 5px;
         color: white;
         display: inline;
+        text-shadow: 1px 2px 2px black;
  }
     
 .icono-envio{
@@ -410,6 +401,7 @@ a:before{
      margin-top: 5px;
      display: inline-block;
      margin-left: 65px;
+     text-shadow: 1px 3px 5px black;
  }
  
  .icono-mano{
@@ -690,25 +682,21 @@ ul li{
 
 .piepagina{
     width: 100%;
-    height: 250px;
-    background-image: url(/recursos/depositphotos_126789892-stock-photo-abstract-gradient-turquoise-white-colored.jpg);
-    background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-     display: flex;
-    
-    
-    
+    height: 260px;
+    background-color: #038C3E;
 }
 
 .container-8{
-    width: 90%;
-    height: 250px;
+    width: 98%;
+    height: 240px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
+    border: 1px solid #42f79056;
+    border-radius: 10px;
+
    
     
 }
@@ -716,17 +704,19 @@ ul li{
 .piePagina-1{
   width:20%;
   height: 150px;
-  display: flex;
-  justify-content: center;
   margin-top: 50px;
+  margin-left: 100px;
 }
 
 .piePagina-2{
     width: 30%;
     height: 200px;
-    text-align: center;
+    text-align: left;
     align-self: center;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+    
+   
 }
 
 .logo-pie{
@@ -742,11 +732,34 @@ ul li{
 
 .piePagina-2 p{
     margin-top: 15px;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Kanit', sans-serif;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.471);
 }
 
+.t-pie{
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.471);
+}
+
+.subcribirse{
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.btn-sub{
+    padding: 3px 30px;
+    border-radius: 10px;
+    font-family: 'Kanit', sans-serif;
+    background-color: #31db7b;
+    font-weight: 600;
+    -webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+	box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+}
 
 
 /*----------SLIDE-------------------*/
@@ -856,6 +869,7 @@ ul li{
     margin-top: 15px;
     font-family: 'Catamaran', sans-serif;
     font-weight: 500;
+   
 }
 
 
@@ -1038,7 +1052,7 @@ box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
     text-align: center;
     margin-left: 5px;
     color: white;
- 
+    text-shadow: 1px 2px 2px black;
     display: inline;
 }
 
@@ -1129,7 +1143,7 @@ box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
     text-align: center;
     margin-left: 5px;
     color: white;
- 
+    text-shadow: 1px 2px 2px rgb(57, 7, 7);
     display: inline;
 }
 
@@ -1151,8 +1165,8 @@ box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
     height: 10%;
     background-color: #BF244E;
     margin-top: 25px;
-   border-radius: 0  0 10px 10px;
-   display: flex;
+    border-radius: 0  0 10px 10px;
+    display: flex;
 }
 
 .titulo-tarjeta-audio{
@@ -1216,7 +1230,7 @@ box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
     text-align: center;
     margin-left: 5px;
     color: white;
- 
+    text-shadow: 1px 2px 2px black;
     display: inline;
 }
 
